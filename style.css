@@ -1,19 +1,21 @@
 body{
-  font-family: Arial, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background: #dae2e2;
+}
+
 }
 
 header{
-  background-color: #4caf50;
+  background-color: #e18141;
   color: white;
   padding: 1em 0;
   text-align: center;
 }
 
 nav{
-  background-color: #333333;
+  background-color: #4e6561;
   overflow: hidden;
 }
 
@@ -29,6 +31,36 @@ nav a{
 }
 
 nav a:hover{
-  background-color: #dddddd;
-  color: black;
+  background-color: #050505;
+  color: #000000;
+}
+
+.container{
+  padding: 20px;
+}
+
+.sessao{
+  background-color: #4e6561;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer{
+  background-color: #4e6561;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.roboto-condensed-<uniquifier> {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
